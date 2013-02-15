@@ -1,5 +1,3 @@
-# Livefyre StreamHub + Filepicker.io
+# Livefyre StreamHub + Chute MediaChooser
 
-Pick files to submit as Content into StreamHub Collections.
-
-![Screenshot](http://d.pr/i/vGkZ+)
+Choose Media to submit as Content into StreamHub Collections.
