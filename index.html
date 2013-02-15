@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media uploads with Livefyre StreamHub & Chute Media Chooser</title>
+    <meta charset="utf-8">
+    <script src="components/requirejs/require.js"
+            data-main="main"></script>
+    <style>
+    body {
+        color: #222;
+        font: 14px sans-serif;
+        line-height: 1.25;
+    }
+    #container {
+        margin: 0 auto;
+        width: 1280px;
+    }
+    .example {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .example .upload-button {
+        margin-bottom: 1em;
+    }
+    #example-feed {
+        float: left;
+        width: 300px;
+    }
+    #example-wall {
+        float: left;
+        width: 900px;
+    }
+    #example-wall .hub-item {
+        width: 200px;
+    }
+    .upload-button {
+        background-color: #4d90fe;
+        border-radius: 2px;
+        color: white;
+        cursor: pointer;
+        display: block;
+        font-size: 2em;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .upload-button:hover {
+        background-color: #0072bb;
+    }
+    .hub-item {
+        background-color: white;
+        cursor: pointer;
+        padding: .5em;
+        margin-bottom: 0.25em;
+    }
+    .hub-item .hub-avatar img {
+        height: 1.2em;
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="components/streamhub-backbone/main.css">
+    <link rel="stylesheet" type="text/css" href="components/streamhub-isotope/main.css">
+</head>
+<body>
+<div id="container">
+  <h1>Livefyre StreamHub & Chute Media Chooser</h1>
+  <p><a href="http://www.livefyre.com/streamhub/" target="_blank">StreamHub</a> hosts Collections of Content</p>
+  <p><a href="http://gobengo.github.com/streamhub-backbone/" target="_blank">StreamHub-Backbone</a> helps you render them nicely</p>
+  <p><a href="https://www.getchute.com" target="_blank">Chute</a> is a great source of Content</p>
+  <p>Now you can use them all together. Hooray!</p>
+  <p>Check out the source code <a href="https://github.com/gobengo/streamhub-chute-demo" target="_blank">on GitHub</a></p>
+  <div id="example" class="example">
+    <a class="upload-button"><strong>Choose Media</strong></a>
+    <div id="example-feed"></div>
+    <div id="example-wall"></div>
+  </div>
+</div>
+</body>
+</html>
